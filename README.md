@@ -11,23 +11,39 @@ https://code.earthengine.google.com/96e343ca9ba781496317f657492f5b14
 ## Project Structure
 
 ```
-Resilent-City-/
-├── backend/              # Python FastAPI backend
-│   ├── app.py           # Main API server
-│   ├── twin_engine.py   # Resilience computation engine
-│   ├── climate_engine.py # Live weather data
-│   ├── ndvi_engine.py   # Vegetation analysis
-│   ├── dem_engine.py    # Flood sensitivity
-│   └── requirements.txt # Python dependencies
-├── frontend/            # React + Vite frontend
+Ahmedabad-Resilience-Simulator/
+│
+├── backend/
+│   ├── app.py
+│   ├── twin_engine.py
+│   ├── climate_engine.py
+│   ├── ndvi_engine.py
+│   ├── dem_engine.py
+│   ├── requirements.txt
+│   └── .env                (NOT pushed to GitHub)
+│
+├── frontend/
 │   ├── src/
-│   │   ├── components/  # React components
-│   │   ├── App.jsx      # Main app
-│   │   └── main.jsx     # Entry point
-│   ├── package.json     # Node dependencies
-│   └── vite.config.js   # Vite configuration
-├── data/                # GeoJSON boundary data
-└── rasters/             # Satellite imagery (NDVI, DEM)
+│   ├── public/
+│   ├── package.json
+│   ├── vite.config.js
+│   └── index.html
+│
+├── data/
+│   └── ahmedabad_boundary.geojson
+│
+├── assets/
+│   ├── architecture.png
+│   ├── dashboard_screenshot.png
+│   └── gee_heatmap.png
+│
+├── rasters/                (ONLY if small files)
+│   ├── ndvi_2023.tif
+│   └── dem.tif
+│
+├── .gitignore
+├── README.md
+└── LICENSE
 ```
 
 ## Setup Instructions
