@@ -1,6 +1,12 @@
 # Ahmedabad City Resilience Simulator
 
 Real-time urban digital twin for SDG 11 - Sustainable Cities and Communities
+# Ahmedabad City Resilience Simulator
+
+Real-time urban digital twin for SDG 11 - Sustainable Cities and Communities
+
+## 🌍 Live Digital Twin (Google Earth Engine)
+https://code.earthengine.google.com/96e343ca9ba781496317f657492f5b14
 
 ## Project Structure
 
