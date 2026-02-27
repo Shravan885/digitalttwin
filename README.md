@@ -44,6 +44,15 @@ Ahmedabad-Resilience-Simulator/
 ├── .gitignore
 ├── README.md
 └── LICENSE
+
+Ahmedabad-Resilience-Simulator/
+├── backend/
+├── frontend/
+├── data/
+├── assets/
+├── README.md
+├── .gitignore
+└── LICENSE
 ```
 
 ## Setup Instructions
